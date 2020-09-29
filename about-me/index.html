@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="天才刘晗">
+    
+    
+    
+    
+    
+    
+    <title>about-me | 天才刘晗</title>
+    <!-- inject:style -->
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <!-- endinject -->
+    <style>
+        .cube-loading {
+            top: 0;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: url('/images/lg/loading.gif') no-repeat center center;
+            background-color: rgba(0,0,0,.7);
+        }
+
+        .cube-loading.out {
+            display: none;
+        }
+
+        .cube-loading:before {
+            display: block;
+            content: '加载中';
+            position: relative;
+            width: 100%;
+            top: 50%;
+            right: -50%;
+            color: #fff;
+        }
+
+        @media(max-width: 768px) {
+            .cube-loading:before {
+                font-size: 1.2em;
+                transform: translate(-24px,20px);
+                -webkit-transform: translate(-24px,20px);
+                -o-transform: translate(-24px,20px);
+                -ms-transform: translate(-24px,20px);
+            }
+        }
+
+        @media(min-width: 768px) {
+            .cube-loading:before {
+
+            }
+        }
+    </style>
+    
+<meta name="generator" content="Hexo 5.2.0"></head>
+<body>
+<div class="cube-body">
+    <nav id="cube-top-memu" class="cube-menu">
+    <ul class="cube-menu-collapse">
+        
+        <li>
+            <i class="cube-icon cube-icon-home" aria-hidden="true"></i>
+            <a href="/">首页</a>
+        </li>
+        
+        <li>
+            <i class="cube-icon cube-icon-archive" aria-hidden="true"></i>
+            <a href="/archives">归档</a>
+        </li>
+        
+        <li>
+            <i class="cube-icon cube-icon-categories" aria-hidden="true"></i>
+            <a href="/categories">分类</a>
+        </li>
+        
+        <li>
+            <i class="cube-icon cube-icon-tags" aria-hidden="true"></i>
+            <a href="/tags">标签</a>
+        </li>
+        
+        <li>
+            <i class="cube-icon cube-icon-about" aria-hidden="true"></i>
+            <a href="/about-me">关于我</a>
+        </li>
+        
+    </ul>
+</nav>
+<nav class="cube-side-menu" id="cube-side-menu">
+    <ul class="cube-menu-list">
+        
+        <li>
+            <a class="lrc-control">开启歌词</a>
+        </li>
+        
+        <li>
+            <a class="scroll-to-top">回到顶部</a>
+        </li>
+    </ul>
+</nav>
+    <header class="cube-header" id="cube-header">
+    <img src=" http://cube-1252774894.cosgz.myqcloud.com/background.png " alt="头部背景图片">
+    
+    <div class="cube-type">
+        <span class="cube-typed-title">Csustの部落格</span>
+        <span class="cube-typed-cursor">|</span>
+    </div>
+    
+</header>
+
+    <style>
+        nav.cube-menu:before {
+            content: '';
+            visibility: hidden;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 44px;
+        
+            filter: blur(5px);
+            -webkit-filter: blur(5px);
+        
+            z-index: -1;
+            background-image: url('http://cube-1252774894.cosgz.myqcloud.com/background.png');
+            background-repeat: no-repeat;
+            background-position: center -356px;
+            background-size: cover;
+            background-color: transparent;
+        }
+
+        header.cube-background.cube-header-background {
+            visibility: hidden;
+            background-image: url('http://cube-1252774894.cosgz.myqcloud.com/background.png');
+            background-position: center -400px;
+        }
+    </style>
+    <header class="cube-background cube-header-background">
+        
+        <div class="cube-type">
+            <span class="cube-typed-title">Csustの部落格</span>
+            <span class="cube-typed-cursor">|</span>
+        </div>
+        
+    </header>
+    <div class="load-header-background"></div>
+    <script>
+        (function (window) {
+
+            window.headerModule = {}
+            window.headerModule.image = {
+                width: '2000',
+                height: '1414'
+            }
+
+        })(window)
+    </script>
+    
+    <div class="cube-content">
+        <div class="cube-left">
+            <div class="cube-article">
+    <h1 class="title">about-me</h1>
+    
+    <div class="cube-article-header">
+        <div class="cube-article-date page">
+            <i class="cube-icon cube-icon-date" aria-hidden="true"></i>
+            <!-- moment.js对象 -->
+            2020-09-30
+        </div>
+    </div>
+    
+    <div class="cube-article-content cube-markdown">
+        
+        <p>#const T、const T<em>、T <em>const、const T&amp;、const T</em>&amp; 的区别<br> T是指一种数据类型，可以是基本数据类型，也可以是自己定义的类型，单独的一个const是指一个常量。<br>##const T<br>定义一个常量，声明的同时必须进行初始化。一旦声明，这个值也将不能被改变。<br>##const T</em><br>指向常量的指针，不能改变所指向对象的值。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"> <span class="number">1</span> <span class="keyword">const</span> <span class="keyword">int</span> i = <span class="number">5</span>;</span><br><span class="line"> <span class="number">2</span> <span class="keyword">const</span> <span class="keyword">int</span> i2 = <span class="number">10</span>;</span><br><span class="line"> <span class="number">3</span> <span class="keyword">const</span> <span class="keyword">int</span>* pInt = &amp;i;           <span class="comment">//正确，指向一个const int对象，即i的地址</span></span><br><span class="line"> <span class="number">4</span> <span class="comment">//*pInt = 10;                   //错误，不能改变其所指缶的对象</span></span><br><span class="line"> <span class="number">5</span> pInt = &amp;i2;                     <span class="comment">//正确，可以改变pInt指针本身的值,此时pInt指向的是i2的地址</span></span><br><span class="line"> <span class="number">6</span> <span class="keyword">const</span> <span class="keyword">int</span>* p2 = <span class="keyword">new</span> <span class="keyword">int</span>(<span class="number">8</span>);     <span class="comment">//正确，指向一个new出来的对象的地址</span></span><br><span class="line"> <span class="number">7</span> <span class="keyword">delete</span> p2;                      <span class="comment">//正确</span></span><br><span class="line"> <span class="number">8</span> <span class="comment">//int* pInt = &amp;i;               //错误，i是const int类型，类型不匹配，不能将const int * 初始化为int *</span></span><br><span class="line"> <span class="number">9</span> <span class="keyword">int</span> nValue = <span class="number">15</span>;</span><br><span class="line"><span class="number">10</span> <span class="keyword">const</span> <span class="keyword">int</span> * pConstInt = &amp;nValue;<span class="comment">//正确，可以把int *赋给const int *，但是pConstInt不能改变其所指向对象的值，即nValue</span></span><br><span class="line"><span class="number">11</span> *pConstInt = <span class="number">40</span>;                <span class="comment">//错误，不能改变其所指向对象的值</span></span><br></pre></td></tr></table></figure>
+
+<p>##const T* 与T* const的区别<br>指针本身也是一种对象，把指针定义为常量就是常量指针，就是T* const类型，也可以写成T *const,声明时必须初始化华。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"> <span class="number">1</span> <span class="keyword">int</span> nValue = <span class="number">10</span>;</span><br><span class="line"> <span class="number">2</span> <span class="keyword">int</span>* <span class="keyword">const</span> p = &amp;nValue;</span><br><span class="line"> <span class="number">3</span> <span class="keyword">int</span> *<span class="keyword">const</span> p2 = &amp;nValue;</span><br><span class="line"> <span class="number">4</span>                                     <span class="comment">//const int* 指针指向的对象不可以改变，但指针本身的值可以改变；</span></span><br><span class="line"> <span class="number">5</span>                                     <span class="comment">//int* const 指针本身的值不可改变，但其指向的对象可以改变。</span></span><br><span class="line"> <span class="number">6</span> <span class="keyword">int</span> nValue1 = <span class="number">10</span>;</span><br><span class="line"> <span class="number">7</span> <span class="keyword">int</span> nValue2 = <span class="number">20</span>;</span><br><span class="line"> <span class="number">8</span> <span class="keyword">int</span>* <span class="keyword">const</span> constPoint = &amp;nValue1;</span><br><span class="line"> <span class="number">9</span> <span class="comment">//constPoint = &amp; nValue2;           //错误，不能改变constPoint本身的值</span></span><br><span class="line"><span class="number">10</span> *constPoint = <span class="number">40</span>;                   <span class="comment">//正确，可以改变constPoint所指向的对象，此时nValue1 = 40</span></span><br><span class="line"><span class="number">11</span> </span><br><span class="line"><span class="number">12</span> </span><br><span class="line"><span class="number">13</span> <span class="keyword">const</span> <span class="keyword">int</span> nConstValue1 = <span class="number">5</span>;</span><br><span class="line"><span class="number">14</span> <span class="keyword">const</span> <span class="keyword">int</span> nConstValue2 = <span class="number">15</span>;</span><br><span class="line"><span class="number">15</span> <span class="keyword">const</span> <span class="keyword">int</span>* pPoint = &amp;nConstValue1;</span><br><span class="line"><span class="number">16</span> <span class="comment">//*pPoint  = 55;                    //错误，不能改变pPoint所指向对象的值</span></span><br><span class="line"><span class="number">17</span> pPoint = &amp;nConstValue2;             <span class="comment">//正确，可以改变pPoint指针本身的值，</span></span><br><span class="line"><span class="number">18</span>                                     <span class="comment">//此时pPoint邦定的是nConstValue2对象，即pPoint为nConstValue2的地址</span></span><br></pre></td></tr></table></figure>
+<p>##const T* const<br>是一个指向常量对象的常量指针，即不可以改变指针本身的值，也不可以改变指针指向的对象。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1</span> <span class="keyword">const</span> <span class="keyword">int</span> nConstValue1 = <span class="number">5</span>;</span><br><span class="line"><span class="number">2</span> <span class="keyword">const</span> <span class="keyword">int</span> nConstValue2 = <span class="number">15</span>;</span><br><span class="line"><span class="number">3</span> <span class="keyword">const</span> <span class="keyword">int</span>* <span class="keyword">const</span> pPoint = &amp;nConstValue1;</span><br><span class="line"><span class="number">4</span> <span class="comment">//*pPoint  = 55;                    //错误，不能改变pPoint所指向对象的值</span></span><br><span class="line"><span class="number">5</span> <span class="comment">//pPoint = &amp;nConstValue2;           //错误，不能改变pPoint本身的值</span></span><br></pre></td></tr></table></figure>
+<p>##const T&amp;<br>对常量的应用，又称常量引用，常量引用不能修改其绑定的对象。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1</span> <span class="keyword">int</span> i = <span class="number">5</span>;</span><br><span class="line"><span class="number">2</span> <span class="keyword">const</span> <span class="keyword">int</span> constInt = <span class="number">10</span>;</span><br><span class="line"><span class="number">3</span> <span class="keyword">const</span> <span class="keyword">int</span>&amp; rConstInt = constInt;    <span class="comment">//正确，引用及邦定的值都是常量</span></span><br><span class="line"><span class="number">4</span> rConstInt = <span class="number">5</span>;                      <span class="comment">//错误，不能改变引用所指向的对象</span></span><br></pre></td></tr></table></figure>
+<p><font color=blue>允许为一个常量引用邦定一个非常量对象、字面值，甚至是表达式；引用的类型与引用所指向的类型必须一致。</font></p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"> <span class="number">1</span> <span class="keyword">int</span> i = <span class="number">5</span>;</span><br><span class="line"> <span class="number">2</span> <span class="keyword">int</span>&amp; rInt = i;                      <span class="comment">//正确，int的引用</span></span><br><span class="line"> <span class="number">3</span> <span class="keyword">const</span> <span class="keyword">int</span> constInt = <span class="number">10</span>;</span><br><span class="line"> <span class="number">4</span> <span class="keyword">const</span> <span class="keyword">int</span>&amp; rConstInt = constInt;    <span class="comment">//正确，引用及邦定的值都是常量</span></span><br><span class="line"> <span class="number">5</span> <span class="keyword">const</span> <span class="keyword">int</span>&amp; rConstInt2 = rInt;       <span class="comment">//正确，用rInt邦定的对象进行赋值</span></span><br><span class="line"> <span class="number">6</span> rInt = <span class="number">30</span>;                          <span class="comment">//这时，rConstInt2、rInt、i的值都为30</span></span><br><span class="line"> <span class="number">7</span> <span class="comment">//rConstInt2 = 30;                  //错误，rConstInt2是常量引用，rConstInt2本身不能改变所指向的对象</span></span><br><span class="line"> <span class="number">8</span> </span><br><span class="line"> <span class="number">9</span> </span><br><span class="line"><span class="number">10</span> <span class="keyword">int</span> i2 = <span class="number">15</span>;</span><br><span class="line"><span class="number">11</span> <span class="keyword">const</span> <span class="keyword">int</span>&amp; rConstInt3 = i2;         <span class="comment">//正确，用非常量的对象为其赋值</span></span><br><span class="line"><span class="number">12</span> <span class="keyword">const</span> <span class="keyword">int</span>&amp; rConstInt4 = i + i2;     <span class="comment">//正确，用表达式为其赋值,值为45</span></span><br><span class="line"><span class="number">13</span> i = <span class="number">20</span>;                             <span class="comment">//此时i=20, rInt = 20, rConstInt4 = 45,说明rConstInt4邦定的是i + i2的临时变量</span></span><br><span class="line"><span class="number">14</span> <span class="keyword">const</span> <span class="keyword">int</span>&amp; rConstInt5 = <span class="number">50</span>;         <span class="comment">//正解，用一个常量值为其赋值</span></span><br></pre></td></tr></table></figure>
+<p>##const T*&amp;与T *const&amp;<br>指向常量对象的指针的引用，这可以分两步来理解：</p>
+<blockquote>
+<p>1.const T*是指向常量的指针；<br>2.const T*&amp;指向常量的指针的引用。</p>
+</blockquote>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"> <span class="number">1</span> <span class="keyword">const</span> <span class="keyword">int</span> nConstValue = <span class="number">1</span>;                      <span class="comment">//常量对象</span></span><br><span class="line"> <span class="number">2</span> <span class="keyword">const</span> <span class="keyword">int</span> nConstValue2 = <span class="number">2</span>;                     <span class="comment">//常量对象</span></span><br><span class="line"> <span class="number">3</span> <span class="keyword">const</span> <span class="keyword">int</span>* pConstValue = &amp;nConstValue;          <span class="comment">//指向常量对象的指针</span></span><br><span class="line"> <span class="number">4</span> <span class="keyword">const</span> <span class="keyword">int</span>* pConstValue2 = &amp;nConstValue2;        <span class="comment">//指向常量对象的指针</span></span><br><span class="line"> <span class="number">5</span> <span class="keyword">const</span> <span class="keyword">int</span>*&amp; rpConstValue = pConstValue;         <span class="comment">//指向常量对象的指针的引用</span></span><br><span class="line"> <span class="number">6</span> <span class="comment">//*rpConstValue = 10;                           //错误，rpConstValue指向的是常量对象，常量对象的值不可改变</span></span><br><span class="line"> <span class="number">7</span> rpConstValue = pConstValue2;                    <span class="comment">//正确，此时pConstValue的值等于pConstValue2</span></span><br><span class="line"> <span class="number">8</span>                                                 <span class="comment">//指向常量对象的指针本身是对象，引用可以改变邦定对象的值</span></span><br><span class="line"> <span class="number">9</span> </span><br><span class="line"><span class="number">10</span> <span class="keyword">int</span> nValue = <span class="number">5</span>;</span><br><span class="line"><span class="number">11</span> <span class="keyword">int</span> nValue2 = <span class="number">10</span>;</span><br><span class="line"><span class="number">12</span> <span class="keyword">int</span> *<span class="keyword">const</span> constPoint = &amp;nValue;                <span class="comment">//常量指针</span></span><br><span class="line"><span class="number">13</span> <span class="keyword">int</span> *<span class="keyword">const</span> constPoint2 = &amp;nValue2;              <span class="comment">//常量指针</span></span><br><span class="line"><span class="number">14</span> <span class="keyword">int</span> *<span class="keyword">const</span> &amp;rpConstPoint = constPoint;          <span class="comment">//对常量指针的引用,邦定constPoint</span></span><br><span class="line"><span class="number">15</span> <span class="comment">//rpConstPoint = constPoint2;                   //错误，constPoint是常量指针，指针本身的值不可改变</span></span><br><span class="line"><span class="number">16</span> *rpConstPoint = <span class="number">20</span>;                             <span class="comment">//正确，指针指向的对象可以改变</span></span><br></pre></td></tr></table></figure>
+
+    </div>
+</div>
+
+
+
+        </div>
+        <div class="cube-right">
+            
+
+<div class="cube-search cube-sidebar" id="cube-search">
+    <div class="search-container">
+        <input type="text" placeholder="搜索" class="cube-search-input" id="cube-search-input">
+        <i class="cube-icon cube-icon-search cube-search-submit" aria-hidden="true"></i>
+    </div>
+    <!-- TODO 通过给window赋一个全局变量，通过脚本赋值 -->
+</div>
+<script>
+    (function (window) {
+        'use strict';
+        window.searchModule = {}
+        window.searchModule.JSONUrl = '/content.json'
+        window.searchModule.rootUrl = '/'
+    })(window)
+</script>
+<div class="cube-search-form">
+    <div class="cube-search-control">
+        <input type="text" placeholder="搜索" class="search-input">
+        <a class="close-button">
+            <i class="cube-icon cube-close" aria-hidden="true"></i>
+        </a>
+    </div>
+    <div class="cube-search-result"></div>
+</div>
+
+
+<div class="cube-author cube-sidebar" id="cube-author">
+    
+    
+    <span>天才刘晗</span>
+    
+    
+    <div class="count">
+        <a class="count articles"><span>1</span>文章</a>
+        <a class="count tags"><span>0</span>标签</a>
+        <a class="count categories"><span>0</span>分类</a>
+    </div>
+</div>
+
+
+
+<div class="cube-music cube-sidebar" id="cube-music">
+    <div class="cube-player aplayer" id="cube-player"></div>
+</div>
+<script>
+    (function (window) {
+        window.musicModule = {}
+        window.musicModule.musicConfig = '{"narrow":false,"autoplay":false,"showlrc":3,"theme":"#b7daff","mutex":true,"mode":"circulation","preload":"auto","listmaxheight":"513px","music":[{"title":"Dear friends","author":"TRIPLANE","url":"http://cube-1252774894.cosgz.myqcloud.com/music/source/TRIPLANE - Dear friends.mp3","lrc":"http://cube-1252774894.cosgz.myqcloud.com/music/lrc/Dear friends - TRIPLANE.lrc","pic":"http://cube-1252774894.cosgz.myqcloud.com/music/image/TRIPLANE - Dear friends.jpg"},{"title":"Butter-Fly","author":"和田光司","url":"http://cube-1252774894.cosgz.myqcloud.com/music/source/和田光司 - Butter-Fly (ピアノヴァージョン).mp3","lrc":"http://cube-1252774894.cosgz.myqcloud.com/music/lrc/Butter-Fly (ピアノヴァージョン) - 和田光司.lrc","pic":"http://cube-1252774894.cosgz.myqcloud.com/music/image/和田光司 - Butter-Fly (ピアノヴァージョン).jpg"},{"title":"宵闇花火","author":"葉月ゆら","url":"http://cube-1252774894.cosgz.myqcloud.com/music/source/葉月ゆら - 宵闇花火.mp3","lrc":"http://cube-1252774894.cosgz.myqcloud.com/music/lrc/宵闇花火 - 葉月ゆら.lrc","pic":"http://cube-1252774894.cosgz.myqcloud.com/music/image/葉月ゆら - 宵闇花火.jpg"}]}'
+        window.musicModule.lrcConfig = {
+            open: '开启歌词',
+            close: '关闭歌词'
+        }
+    })(window)
+</script>
+
+
+
+<div class="cube-recent-posts cube-sidebar" id="cube-recent-posts">
+    <div class="title">
+        <a>近期文章</a>
+    </div>
+    <ul class="list">
+        
+        
+        <li>
+            <!-- TODO 如果文章要显示图片，那么在front-matter上添加preview属性(url or path) -->
+            
+            <div class="normal">
+                <p class="index first">
+                    <span>1</span>
+                </p>
+                <p class="title">
+                    <a href="/2020/09/27/hello-world/" title="Hello World">Hello World</a>
+                </p>
+            </div>
+            
+        </li>
+        
+        
+    </ul>
+</div>
+
+
+
+
+
+
+
+<div class="cube-links cube-sidebar" id="cube-links">
+    <div class="title">
+        <a>个人链接</a>
+    </div>
+    <ul class="list">
+        
+        <li>
+            
+            
+            <img src="http://cube-1252774894.cosgz.myqcloud.com/links/GitHub.png">
+            
+            <a href="https://github.com/ZEROKISEKI" target="_blank">GitHub</a>
+        </li>
+        
+        <li>
+            
+            
+            <img src="http://cube-1252774894.cosgz.myqcloud.com/links/Coding.png">
+            
+            <a href="https://coding.net/u/SORA1" target="_blank">Coding</a>
+        </li>
+        
+        <li>
+            
+            
+            <img src="http://cube-1252774894.cosgz.myqcloud.com/links/SF.png">
+            
+            <a href="https://segmentfault.com/u/aonosora" target="_blank">SF社区</a>
+        </li>
+        
+        <li>
+            
+            
+            <img src="http://cube-1252774894.cosgz.myqcloud.com/links/开发者头条.png">
+            
+            <a href="https://toutiao.io/u/148070" target="_blank">开发者头条</a>
+        </li>
+        
+    </ul>
+</div>
+
+
+
+<div class="cube-friend-links cube-sidebar" id="cube-friend-links">
+    <div class="title">
+        <a>友情链接</a>
+    </div>
+    <ul class="list">
+        
+        <li>
+            <!-- TODO change avatar.png to friend.png-->
+            <img src="http://cube-1252774894.cosgz.myqcloud.com/friend_links/micblo.png">
+            <a href="https://blog.micblo.com/" target="_blank">罗大佬</a>
+        </li>
+        
+        <li>
+            <!-- TODO change avatar.png to friend.png-->
+            <img src="http://cube-1252774894.cosgz.myqcloud.com/friend_links/DIYgod.jpg">
+            <a href="https://www.anotherhome.net/" target="_blank">DIYgod</a>
+        </li>
+        
+        <li>
+            <!-- TODO change avatar.png to friend.png-->
+            <img src="/images/friend_links.jpg ">
+            <a href="https://aonosora.com/" target="_blank">咪西西の部落格</a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+    </div>
+</div>
+<footer class="cube-footer">
+    
+© 2017 天才刘晗
+
+<br>
+Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>.&nbsp;Theme by <a href="https://github.com/ZEROKISEKI" target="_blank">AONOSORA</a>
+</footer>
+<!-- inject:script -->
+<script src="/js/script.js"></script>
+<!-- endinject -->
+<div class="cube-loading out"></div>
+</body>
+</html>
